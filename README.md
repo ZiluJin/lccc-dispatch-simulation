@@ -23,8 +23,8 @@ Bid price is £0/MWh.
 ### 2. Gas
 Available is equal to capacity.
 Bid is based only on gas costs:
+bid = (gas_price * 34.121) / (100 * efficiency)
 
-$ \text{bid} = \frac{\text{gas\_price} \times 34.121}{100 \times \text{efficiency}} $
 
 
 
