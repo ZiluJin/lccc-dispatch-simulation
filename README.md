@@ -24,9 +24,11 @@ Bid price is £0/MWh.
 Available is equal to capacity.
 Bid is based only on gas costs:
 
-$$
-\text{bid} = \frac{\text{gas_price (GBp/Thm)} \times 34.121}{100 \times \text{efficiency}}
-$$
+$ \text{bid} = \frac{\text{gas\_price} \times 34.121}{100 \times \text{efficiency}} $
+
+
+
+
 
 ### 3. Dispatch Algorithm
     (1) Dispatch wind (bid = 0)
